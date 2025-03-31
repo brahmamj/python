@@ -12,6 +12,7 @@ print(a,b,rest) # Output: 8 9 [0, 1, 2, 3, 4, 5, 6, 7]
 a,*rest,b = range(10)
 print(a,b,rest) # Output: 0 9 [1, 2, 3, 4, 5, 6, 7, 8]
 
+print([1,2,*range(5)]) # Output: [1, 2, 0, 1, 2, 3, 4]
 
 county,latitube,longitude = "India", 20.5937, 78.9629
 print(county,latitube,longitude) # Output: India 20.5937 78.9629
